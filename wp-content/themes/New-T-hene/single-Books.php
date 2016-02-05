@@ -30,7 +30,8 @@ get_header(); ?>
 						comments_template();
 					}
 				endwhile;
-				echo types_render_field("book-field", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));			?>
+				echo types_render_field("book-field", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));		
+				echo types_render_field("customer-info", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));			?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
