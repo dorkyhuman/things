@@ -1,0 +1,92 @@
+.tlp_loading {
+    background: url('loading.gif') no-repeat center center;
+    padding: 11px;
+}
+
+.tlp-field {
+    float: right;
+    width: 75%;
+}
+
+.tplp-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    float: left;
+    width: 25%;
+}
+
+.tlp-meta-field-holder {
+    margin-top: 15px;
+}
+
+
+.tlp-field-holder {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tlp-field textarea, .tlp-field input[type=text], .tlp-field input[type=url], .tlp-field input[type=email] {
+    width: 75%;
+}
+.tlp-help{
+    background: #fff;
+    padding: 10px 20px;
+}
+.field-holder .field input[type="number"]{
+    width: 60px;
+}
+.tlp-field span.desc {
+    display: block;
+    margin-top: 5px;
+    color: gray;
+    font-style: italic;
+}
+
+.social-link label {
+    display: block;
+}
+
+.tlp-field .social-link {
+    margin-bottom: 10px;
+}
+
+.tlp_slink {
+    border-bottom: 1px solid #eee;
+}
+
+/* settings page */
+
+.field-holder {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+.field-holder input.mini {
+    width: 60px;
+}
+
+.field-holder .label-holder {
+    float: left;
+    width: 15%;
+}
+.field-holder .field {
+    width: 82%;
+    float: right;
+}
+#response {
+    display: none;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0;
+}
+
+.ui-tabs .ui-tabs-nav li a{
+    box-shadow: none;
+}
+
+@media screen and (max-width: 969px) {
+    .field-holder .label-holder, .field-holder .field {
+        float: none;
+        width: 100%;
+    }
+}
